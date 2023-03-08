@@ -3,7 +3,7 @@
 [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/stats?cursusId=21&coalitionId=46)](https://github.com/JaeSeoKim/badge42)
 
 
-## [§[](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2940680)](https://github.com/Elnop/42-Fract-ol)  Fractol
+## [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2940680)](https://github.com/Elnop/42-Fract-ol)  Fractol
 
 ## [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2924641)](https://github.com/Elnop/42-push_swap)  Push_Swap
 
