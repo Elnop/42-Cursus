@@ -1,6 +1,6 @@
 # 42 Cursus
 
-[![lperroti's 42 stats](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/stats?cursusId=21&coalitionId=46)](https://github.com/JaeSeoKim/badge42)
+[![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/stats?cursusId=21&coalitionId=46)](https://github.com/JaeSeoKim/badge42)
 
 
 ## [![lperroti's 42 fract-ol Score](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2940680)](https://github.com/Elnop/42-Fract-ol)  Fractol
