@@ -5,7 +5,7 @@
 ## Projects
 
 | Name | Grade |
-| :----------------- |:-------------------:|
+| :----------------- |:-------------------|
 | **Libft**          | [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2881963)](https://github.com/Elnop/42-libft)         |
 | **Get_Next_Line**  | [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2897675)](https://github.com/Elnop/42-Get_Next_Line) |
 | **ft_printf**      | [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2884030)](https://github.com/Elnop/42-ft_printf)     |
