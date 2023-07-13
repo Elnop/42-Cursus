@@ -3,7 +3,7 @@
 [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/stats?cursusId=21&coalitionId=46)](https://github.com/JaeSeoKim/badge42)
 
 ## Projects
-|  |  | |
+
 | :----------------- |:-------------------: | :-------------------: |
 | **Libft**                                  | [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2881963)](https://github.com/Elnop/liblp_c) | [repository](https://github.com/Elnop/liblp_c) |
 | [**Get_Next_Line**](https://github.com/Elnop/liblp_c/tree/master/get_next_line) | [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2897675)](https://github.com/Elnop/liblp_c/tree/master/get_next_line) |
