@@ -7,3 +7,6 @@
 [submodule "42-Piscine"]
 	path = 42-Piscine
 	url = git@github.com:Elnop/42-Piscine.git
+[submodule "42-Pipex"]
+	path = 42-Pipex
+	url = git@github.com:Elnop/42-Pipex.git
