@@ -1,15 +1,6 @@
 [submodule "42-Fract-ol"]
 	path = 42-Fract-ol
-	url = https://github.com/Elnop/42-Fract-ol
+	url = git@github.com:Elnop/42-Fract-ol.git
 [submodule "42-push_swap"]
 	path = 42-push_swap
-	url = https://github.com/Elnop/42-push_swap
-[submodule "42-libft"]
-	path = 42-libft
-	url = https://github.com/Elnop/42-libft
-[submodule "42-Piscine"]
-	path = 42-Piscine
-	url = https://github.com/Elnop/42-Piscine
-[submodule "42-ft_printf"]
-	path = 42-ft_printf
-	url = https://github.com/Elnop/42-ft_printf
+	url = git@github.com:Elnop/42-push_swap.git
