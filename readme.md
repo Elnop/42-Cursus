@@ -11,7 +11,7 @@
 | **Born2beroot**                                                                 | ![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2897741)                                                               |
 | **Push_Swap**                          | [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2924641)](https://github.com/Elnop/42-push_swap)                      | [repository](https://github.com/Elnop/42-push_swap) |
 | **Fractol**                             | [![](https://badge42.vercel.app/api/v2/cldy6bu0000060fmk7xt0ylzk/project/2940680)](https://github.com/Elnop/42-Fract-ol)                       | [repository](https://github.com/Elnop/42-Fract-ol) |
-| **Pipex**                                  | | [repository]([https://github.com/Elnop/liblp_c](https://github.com/Elnop/42-Pipex)) |
+| **Pipex**                                  | | [repository](https://github.com/Elnop/42-Pipex) |
 
 ## Exams
 | Name | Grade |
