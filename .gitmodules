@@ -10,3 +10,27 @@
 [submodule "42-Pipex"]
 	path = 42-Pipex
 	url = git@github.com:Elnop/42-Pipex.git
+[submodule "liblp_c"]
+	path = liblp_c
+	url = git@github.com:Elnop/liblp_c.git
+[submodule "42-Philosophers"]
+	path = 42-Philosophers
+	url = git@github.com:Elnop/42-Philosophers.git
+[submodule "Minishell"]
+	path = Minishell
+	url = git@github.com:Elnop/Minishell.git
+[submodule "42-cub3d"]
+	path = 42-cub3d
+	url = git@github.com:Elnop/42-cub3d.git
+[submodule "42-inception"]
+	path = 42-inception
+	url = git@github.com:Elnop/42-inception.git
+[submodule "42-CPP_Pool"]
+	path = 42-CPP_Pool
+	url = git@github.com:Elnop/42-CPP_Pool.git
+[submodule "kfs-1"]
+	path = kfs-1
+	url = git@github.com:Elnop/kfs-1.git
+[submodule "red-tetris"]
+	path = red-tetris
+	url = git@github.com:Elnop/red-tetris.git
