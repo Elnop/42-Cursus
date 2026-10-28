@@ -41,36 +41,23 @@ Shell00–01, C00–C09, Rush00–02 et examens de la Piscine. → [repo](https:
 | Libft | C | ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) | Recodage de fonctions de la libc et utilitaires réutilisés dans tout le cursus | nov. 2022 | [🔗](https://github.com/Elnop/liblp_c) |
 | ft_printf | C | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Recodage de printf : fonctions variadiques et conversions | nov. 2022 | [🔗](https://github.com/Elnop/liblp_c/tree/master/liblp_printf) |
 | Born2beroot | Debian | ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) | Virtualisation : machine Debian avec services sécurisés | déc. 2022 | — |
+| Exam Rank 02 | Examen | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Examen sur machine | janv. 2023 | — |
 | get_next_line | C | ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) | Lecture ligne par ligne depuis un file descriptor | janv. 2023 | [🔗](https://github.com/Elnop/liblp_c/tree/master/get_next_line) |
 | push_swap | C | ![](https://img.shields.io/badge/84-yellowgreen?style=flat-square) | Tri d'une pile avec un jeu d'instructions limité, en un minimum de coups | janv. 2023 | [🔗](https://github.com/Elnop/42-push_swap) |
 | fract-ol | C · MiniLibX | ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) | Rendu de fractales (Mandelbrot, Julia) | févr. 2023 | [🔗](https://github.com/Elnop/42-Fract-ol) |
 | pipex | C | ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) | Reproduction des pipes et redirections du shell | avr. 2023 | [🔗](https://github.com/Elnop/42-Pipex) |
 | Philosophers | C · pthreads | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Dîner des philosophes : multithreading, mutex et processus | août 2023 | [🔗](https://github.com/Elnop/42-Philosophers) |
+| Exam Rank 03 | Examen | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Manipulation avancée de chaînes, backtracking | août 2023 | — |
 | NetPractice | Réseau | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Adressage TCP/IP, masques, passerelles et routage en 10 niveaux | oct. 2023 | — |
 | cub3d | C · MiniLibX | ![](https://img.shields.io/badge/110-brightgreen?style=flat-square) | Moteur 3D en raycasting inspiré de Wolfenstein 3D | déc. 2023 | [🔗](https://github.com/Elnop/42-cub3d) |
 | minishell | C | ![](https://img.shields.io/badge/116-brightgreen?style=flat-square) | Shell POSIX minimal : parsing, redirections, builtins | févr. 2024 | [🔗](https://github.com/Elnop/Minishell) |
+| Exam Rank 04 | Examen | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Examen sur machine | févr. 2024 | — |
+| Piscine C++ | C++98 | ![](https://img.shields.io/badge/validée-brightgreen?style=flat-square) | Modules 00 à 09 : POO, héritage, polymorphisme, templates, STL | mars 2024 | [🔗](https://github.com/Elnop/42-CPP_Pool) |
 | Inception | Docker | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Infrastructure Docker Compose : NGINX (TLS), WordPress php-fpm, MariaDB | mars 2024 | [🔗](https://github.com/Elnop/42-inception) |
 | webserv | C++ | ![](https://img.shields.io/badge/110-brightgreen?style=flat-square) | Serveur HTTP/1.1 testable dans un vrai navigateur | juil. 2024 | — |
+| Exam Rank 05 | Examen | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Examen sur machine | oct. 2024 | — |
 | ft_transcendence | React · Django | ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) | Application web fullstack avec Pong en temps réel | avr. 2025 | — |
-
----
-
-## ➕ Piscine C++
-
-| Module | Score | Thème | Validé |
-| :--- | :---: | :--- | :---: |
-| CPP 00 | ![](https://img.shields.io/badge/80-yellowgreen?style=flat-square) | Introduction à la POO : classes, méthodes, namespaces | oct. 2023 |
-| CPP 01 | ![](https://img.shields.io/badge/90-yellowgreen?style=flat-square) | Allocation mémoire, références, pointeurs sur membres | nov. 2023 |
-| CPP 02 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Polymorphisme ad hoc, surcharge d'opérateurs, forme canonique | nov. 2023 |
-| CPP 03 | ![](https://img.shields.io/badge/80-yellowgreen?style=flat-square) | Héritage | nov. 2023 |
-| CPP 04 | ![](https://img.shields.io/badge/92-yellowgreen?style=flat-square) | Polymorphisme par sous-typage, classes abstraites, interfaces | nov. 2023 |
-| CPP 05 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | try/catch et exceptions | mars 2024 |
-| CPP 06 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Casts C++ (static, dynamic, reinterpret, const) | mars 2024 |
-| CPP 07 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Templates | mars 2024 |
-| CPP 08 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Conteneurs templatés, itérateurs, algorithmes | mars 2024 |
-| CPP 09 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Conteneurs STL appliqués | mars 2024 |
-
-→ [repo](https://github.com/Elnop/42-CPP_Pool)
+| Exam Rank 06 | Examen | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | Examen sur machine | avr. 2025 | — |
 
 ---
 
@@ -98,14 +85,3 @@ Shell00–01, C00–C09, Rush00–02 et examens de la Piscine. → [repo](https:
 | Work Experience I | [Edumapper](https://www.edumapper.fr/) | 4 mois | ![](https://img.shields.io/badge/validé_avec_bonus-F5B301?style=flat-square) | janv. 2026 |
 | Work Experience II · Alternance RNCP 7 | [BPCE Infogérance & Technologies](https://www.bpce-it.fr/) | 6 mois | ![](https://img.shields.io/badge/en_cours-blue?style=flat-square) | — |
 
----
-
-## 📝 Examens
-
-| Examen | Score | Validé |
-| :--- | :---: | :---: |
-| Exam Rank 02 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | janv. 2023 |
-| Exam Rank 03 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | août 2023 |
-| Exam Rank 04 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | févr. 2024 |
-| Exam Rank 05 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | oct. 2024 |
-| Exam Rank 06 | ![](https://img.shields.io/badge/100-brightgreen?style=flat-square) | avr. 2025 |
