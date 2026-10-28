@@ -1,6 +1,8 @@
 # 42 Cursus
 
-[42](https://42.fr/) est une école d'informatique gratuite, sans cours ni professeurs, fondée en 2013 à Paris. On y apprend par projets et en peer-learning : chaque projet est corrigé par d'autres étudiants, et le cursus se suit à son rythme, du tronc commun aux branches de spécialisation.
+> 42, c’est une formation en informatique d’excellence pour tous et toutes. Au programme de cette école différente et innovante : une approche par projets pour progresser et développer des compétences techniques et humaines recherchées sur le marché du travail. Pas de cours. Pas de profs. Pas de classes.
+>
+> — [42.fr](https://42.fr/)
 
 Login : [**lperroti**](https://profile.intra.42.fr/users/lperroti)
 
