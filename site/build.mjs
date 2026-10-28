@@ -89,10 +89,24 @@ function renderReadme({ md, owner, repo, ref, dir }, name) {
     const path = posix.normalize(href.startsWith("/") ? href.slice(1) : posix.join(dir, href));
     return raw ? `https://raw.githubusercontent.com/${owner}/${repo}/${ref}/${path}` : `https://github.com/${owner}/${repo}/blob/${ref}/${path}`;
   };
-  const marked = new Marked({ gfm: true, walkTokens(t) { if (t.type === "link" || t.type === "image") t.href = resolve(t.href, t.type === "image"); } });
+  // headings get GitHub-style ids so a README's table of contents (#…) keeps working
+  const ids = new Map();
+  const headingId = text => {
+    const base = text.toLowerCase().replace(/<[^>]+>/g, "").replace(/[^\p{L}\p{N}\s_-]/gu, "").trim().replace(/\s/g, "-");
+    const n = ids.get(base) ?? 0; ids.set(base, n + 1);
+    return n ? `${base}-${n}` : base;
+  };
+  const marked = new Marked({
+    gfm: true,
+    walkTokens(t) { if (t.type === "link" || t.type === "image") t.href = resolve(t.href, t.type === "image"); },
+    renderer: { heading({ tokens, depth, text }) { return `<h${depth} id="${headingId(text)}">${this.parser.parseInline(tokens)}</h${depth}>\n`; } }
+  });
   // a README usually opens with the project name, which the page header already shows
   md = md.replace(/^\s*#\s+(.+)\n/, (all, h) => bare(h) === bare(name) ? "" : all);
-  return marked.parse(md).replace(/(<img\b[^>]*?\bsrc=["'])([^"']+)/gi, (_, a, src) => a + resolve(src, true));
+  return marked.parse(md)
+    .replace(/(<img\b[^>]*?\bsrc=["'])([^"']+)/gi, (_, a, src) => a + resolve(src, true))
+    // links leave the page in a new tab; in-page anchors (#…) stay put
+    .replace(/<a\b(?![^>]*\btarget=)(?=[^>]*\bhref=["'](?!#))([^>]*)>/gi, '<a$1 target="_blank" rel="noopener">');
 }
 
 const groups = [
