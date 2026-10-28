@@ -34,3 +34,6 @@
 [submodule "red-tetris"]
 	path = red-tetris
 	url = git@github.com:Elnop/red-tetris.git
+[submodule "music-room"]
+	path = music-room
+	url = git@github.com:Elnop/music-room.git
