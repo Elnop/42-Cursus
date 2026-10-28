@@ -73,8 +73,8 @@ Shell00–01, C00–C09, Rush00–02 et examens de la Piscine. → [repo](https:
 
 | Projet | Stack | Score | Description | Validé | Repo |
 | :--- | :--- | :---: | :--- | :---: | :---: |
-| red-tetris | TypeScript · Nuxt | ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) | Tetris multijoueur en réseau, full stack JavaScript | nov. 2025 | [🔗](https://github.com/Elnop/red-tetris) |
-| music-room | TypeScript · React Native · Express · Supabase | ![](https://img.shields.io/badge/en_cours-blue?style=flat-square) | Zumik : app mobile de musique collaborative (playlists en temps réel, délégation de contrôle) | — | [🔗](https://github.com/Elnop/music-room) |
+| red-tetris | Nuxt | ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) | Tetris multijoueur en réseau | nov. 2025 | [🔗](https://github.com/Elnop/red-tetris) |
+| music-room | React Native | ![](https://img.shields.io/badge/en_cours-blue?style=flat-square) | App mobile de musique collaborative | — | [🔗](https://github.com/Elnop/music-room) |
 
 ---
 
