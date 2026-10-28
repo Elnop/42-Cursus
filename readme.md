@@ -1,24 +1,8 @@
-<div align="center">
+# 42 Cursus
 
-# 42 Cursus — Elnop
+[42](https://42.fr/) est une école d'informatique gratuite, sans cours ni professeurs, fondée en 2013 à Paris. On y apprend par projets et en peer-learning : chaque projet est corrigé par d'autres étudiants, et le cursus se suit à son rythme, du tronc commun aux branches de spécialisation.
 
-Mes projets de l'école 42, de la Piscine aux branches spécialisées.
-
-[![GitHub](https://img.shields.io/badge/GitHub-Elnop-181717?style=flat-square&logo=github)](https://github.com/Elnop)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-L%C3%A9on_Perrotin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leon-perrotin-4b46601b4/)
-[![42 Intra](https://img.shields.io/badge/42-lperroti-000000?style=flat-square&logo=42)](https://profile.intra.42.fr/users/lperroti)
-
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxt&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-</div>
+Login : [**lperroti**](https://profile.intra.42.fr/users/lperroti)
 
 **Scores :**
 ![](https://img.shields.io/badge/125_★-F5B301?style=flat-square) bonus complets ·
