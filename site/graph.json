@@ -1,0 +1,20 @@
+{
+  "_comment": "Rank of each common-core project on the holy graph (0 = Libft at the center). Exams, branches and work experience are placed automatically.",
+  "ranks": {
+    "Libft": 0,
+    "ft_printf": 1,
+    "get_next_line": 1,
+    "Born2beroot": 1,
+    "push_swap": 2,
+    "pipex": 2,
+    "fract-ol": 2,
+    "Philosophers": 3,
+    "minishell": 3,
+    "NetPractice": 4,
+    "cub3d": 4,
+    "Piscine C++": 4,
+    "Inception": 5,
+    "webserv": 5,
+    "ft_transcendence": 6
+  }
+}

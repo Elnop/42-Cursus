@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>lperroti · 42 Cursus</title>
+<meta name="description" content="Parcours 42 de lperroti : tronc commun, branches Web, Kernel et IA, expérience professionnelle.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=IBM+Plex+Mono:wght@400;500;600&family=Jost:wght@300;400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="band hero void" id="top">
+  <div class="in">
+    <div class="nav">
+      <span class="logo">42<span>.</span>lperroti</span>
+      <nav aria-label="Sections"><a href="#frise">frise</a><a href="#branches">branches</a><a href="#xp">expérience</a><a href="#roadmap">roadmap</a></nav>
+    </div>
+    <div class="hero-top">
+      <h1 aria-label="42 Cursus"><span class="w">42</span><span class="w">Cursus</span></h1>
+      <div class="term" id="term" aria-live="off"></div>
+    </div>
+    <div class="gshell" id="gshell">
+      <div class="gstage">
+        <svg id="gsvg" role="group" aria-label="Holy graph : projets du cursus par rank, Libft au centre"><g id="groot"></g></svg>
+        <div class="gbar">
+          <input id="gsearch" type="search" list="glist" placeholder="chercher un projet" aria-label="Chercher un projet dans le graphe" autocomplete="off">
+          <datalist id="glist"></datalist>
+          <button id="zin" aria-label="Zoomer">+</button><button id="zout" aria-label="Dézoomer">−</button><button id="zfit" aria-label="Recentrer le graphe">recentrer</button>
+        </div>
+        <div class="ghint" id="ghint">Ctrl / ⌘ + molette pour zoomer</div>
+        <div class="legend"><span><i style="background:var(--teal)"></i>validé</span><span><i style="border:2px solid var(--wip)"></i>en cours</span></div>
+      </div>
+      <aside class="panel" id="panel" aria-live="polite"></aside>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<section class="band paper bleed" id="frise" aria-labelledby="frise-h">
+  <div class="pad"><div class="in">
+    <div class="sec-h"><h2 id="frise-h">Tronc commun</h2><span class="cmt" id="frise-range"></span></div>
+  </div></div>
+  <div class="rail" id="rail" tabindex="0" aria-label="Frise des projets du tronc commun, défilement horizontal"><div class="track" id="track"></div></div>
+  <div class="pad"><div class="in">
+    <div class="rail-hint"><span class="cmt">← glisser ou faire défiler →</span><span class="cmt">teal = 125, score max</span></div>
+  </div></div>
+</section>
+
+<section class="band void" id="branches" aria-labelledby="br-h">
+  <div class="in">
+    <div class="sec-h"><h2 id="br-h">Branches</h2><span class="cmt">/* spécialisations post tronc commun */</span></div>
+    <div class="branches" id="brs"></div>
+  </div>
+</section>
+
+<section class="band paper" id="xp" aria-labelledby="xp-h">
+  <div class="in">
+    <div class="sec-h"><h2 id="xp-h">Expérience</h2><span class="cmt">// work experience 42</span></div>
+    <div class="xp" id="xprows"></div>
+  </div>
+</section>
+
+<section class="band void" id="roadmap" aria-labelledby="rd-h">
+  <div class="in">
+    <div class="sec-h"><h2 id="rd-h">En alternance</h2><span class="cmt">/* heures estimées par 42 */</span></div>
+    <div class="road">
+      <div class="hours"><b id="hrs"></b><p id="hrs-p"></p></div>
+      <div class="rlist" id="rlist"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="band void" style="padding-block:24px">
+  <div class="in"><span>généré depuis readme.md · Elnop/42-Cursus</span><span id="build"></span></div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
