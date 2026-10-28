@@ -49,7 +49,7 @@ const fmtT = L => L[0] === "cmd" ? `<span class="p">${esc(D.login)}@42:~$ </span
    branches and work experience share the outer ring. */
 const node = (p, extra) => ({
   id: slug(p.name), n: p.name, s: p.date ? "done" : "wip", sc: p.score ?? (p.date ? "✓" : null),
-  d: p.date ?? "en cours", st: p.stack, ds: p.desc, repo: p.repo, ...extra
+  d: p.date ?? "en cours", st: p.stack, ds: p.desc, repo: p.repo, page: p.page, ...extra
 });
 const chrono = list => [...list].reverse().sort((a, b) => dateKey(a.date) - dateKey(b.date));
 const GN = [
@@ -170,6 +170,7 @@ function select(id, { zoomTo = false, hash = true } = {}) {
     <h3>${esc(g.n)}</h3>
     <span class="m">${esc(g.st)} · ${esc(g.d)}</span>
     <p>${esc(g.ds)}</p>
+    ${g.page ? `<a href="${esc(g.page)}">fiche projet →</a>` : ""}
     ${href ? `<a href="${esc(href)}" target="_blank" rel="noopener">${g.repo ? "voir le repo" : "site de l'entreprise"} ↗</a>` : ""}`;
   if (hash) try { history.replaceState(null, "", "#" + id); } catch {}
   if (zoomTo) focusNode(g);
@@ -203,7 +204,7 @@ D.common.forEach(p => {
   const y = (p.date ?? "").slice(-4);
   if (y && y !== yr) { html += `<div class="year" aria-hidden="true">${y}</div>`; yr = y; }
   const exam = isExam(p);
-  html += `<article class="cell${exam ? " exam" : ""}"><span class="d">${esc(p.date ?? "en cours")}</span><span class="s${p.score === 125 ? " max" : ""}"${Number.isFinite(p.score) ? ` data-count="${p.score}"` : ""}>${esc(p.score ?? "…")}</span><span class="n">${esc(p.name)}</span><span class="st">${esc(p.stack)}</span>${exam ? "" : `<span class="ds">${esc(p.desc)}</span>`}${p.repo ? `<a class="r" href="${esc(p.repo)}" target="_blank" rel="noopener">repo ↗</a>` : ""}</article>`;
+  html += `<article class="cell${exam ? " exam" : ""}"><span class="d">${esc(p.date ?? "en cours")}</span><span class="s${p.score === 125 ? " max" : ""}"${Number.isFinite(p.score) ? ` data-count="${p.score}"` : ""}>${esc(p.score ?? "…")}</span><span class="n">${p.page ? `<a href="${esc(p.page)}">${esc(p.name)}</a>` : esc(p.name)}</span><span class="st">${esc(p.stack)}</span>${exam ? "" : `<span class="ds">${esc(p.desc)}</span>`}${p.repo ? `<a class="r" href="${esc(p.repo)}" target="_blank" rel="noopener">repo ↗</a>` : ""}</article>`;
 });
 $("track").innerHTML = html;
 const rail = $("rail");
@@ -225,7 +226,7 @@ const ASCII = {
 };
 $("brs").innerHTML = Object.entries(D.branches).map(([b, ps]) => {
   const todo = D.todo.filter(t => t.branch === b && !ps.some(p => p.name === t.name));
-  return `<article class="br">${ASCII[b] ? `<pre aria-hidden="true">${esc(ASCII[b])}</pre>` : ""}<h3>${esc(b)}</h3>${ps.map(p => `<div class="prow"><span class="n">${esc(p.name)}</span><span class="sc${p.score == null ? " wip" : ""}">${esc(p.score ?? "en cours")}</span><span class="m">${esc(p.stack)} · ${esc(p.date ?? "en cours")}</span><span class="ds">${esc(p.desc)}</span></div>`).join("")}${todo.length ? `<div class="todo"><span class="label" style="color:var(--mut-d)">à venir</span>${todo.map(t => `<div><span>${esc(t.name)}</span><span>${t.hours}h</span></div>`).join("")}</div>` : ""}</article>`;
+  return `<article class="br">${ASCII[b] ? `<pre aria-hidden="true">${esc(ASCII[b])}</pre>` : ""}<h3>${esc(b)}</h3>${ps.map(p => `<div class="prow"><span class="n">${p.page ? `<a href="${esc(p.page)}">${esc(p.name)}</a>` : esc(p.name)}</span><span class="sc${p.score == null ? " wip" : ""}">${esc(p.score ?? "en cours")}</span><span class="m">${esc(p.stack)} · ${esc(p.date ?? "en cours")}</span><span class="ds">${esc(p.desc)}</span></div>`).join("")}${todo.length ? `<div class="todo"><span class="label" style="color:var(--mut-d)">à venir</span>${todo.map(t => `<div><span>${esc(t.name)}</span><span>${t.hours}h</span></div>`).join("")}</div>` : ""}</article>`;
 }).join("");
 
 /* ---------- experience ---------- */

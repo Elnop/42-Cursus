@@ -23,7 +23,9 @@ jobs:
         with:
           node-version: 22
       - name: Build site from readme.md
-        run: node site/build.mjs
+        run: |
+          npm ci --prefix site
+          node site/build.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
