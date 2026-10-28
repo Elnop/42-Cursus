@@ -37,3 +37,6 @@
 [submodule "music-room"]
 	path = music-room
 	url = git@github.com:Elnop/music-room.git
+[submodule "ft_linear_regression"]
+	path = ft_linear_regression
+	url = git@github.com:Elnop/ft_linear_regression.git

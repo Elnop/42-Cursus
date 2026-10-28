@@ -33,6 +33,12 @@ Login : [**lperroti**](https://profile.intra.42.fr/users/lperroti)
 | :--- | :--- | :---: | :--- | :---: | :---: |
 | kfs-1 | C · ASM | 120 | Kernel from scratch : amorçage GRUB et affichage VGA | janv. 2026 | [lien](https://github.com/Elnop/kfs-1) |
 
+### IA
+
+| Projet | Stack | Score | Description | Validé | Repo |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| ft_linear_regression | Python | en cours | Régression linéaire par descente de gradient | — | [lien](https://github.com/Elnop/ft_linear_regression) |
+
 ---
 
 ## Projets à faire en alternance
