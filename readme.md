@@ -83,5 +83,6 @@ Shell00–01, C00–C09, Rush00–02 et examens de la Piscine. → [repo](https:
 | Parcours | Entreprise | Durée | Résultat | Validé |
 | :--- | :--- | :---: | :---: | :---: |
 | Work Experience I | [Edumapper](https://www.edumapper.fr/) | 4 mois | ![](https://img.shields.io/badge/validé_avec_bonus-F5B301?style=flat-square) | janv. 2026 |
-| Work Experience II · Alternance RNCP 7 | [BPCE Infogérance & Technologies](https://www.bpce-it.fr/) | 6 mois | ![](https://img.shields.io/badge/en_cours-blue?style=flat-square) | — |
+| Work Experience II | [BPCE Infogérance & Technologies](https://www.bpce-it.fr/) | 6 mois | ![](https://img.shields.io/badge/terminée-lightgrey?style=flat-square) | — |
+| Alternance RNCP 7 | [C10](https://www.c10.fr/) | 1 an | ![](https://img.shields.io/badge/en_cours-blue?style=flat-square) | — |
 
