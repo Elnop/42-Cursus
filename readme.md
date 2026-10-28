@@ -96,7 +96,7 @@ Shell00–01, C00–C09, Rush00–02 et examens de la Piscine. → [repo](https:
 | Parcours | Entreprise | Durée | Résultat | Validé |
 | :--- | :--- | :---: | :---: | :---: |
 | Work Experience I | EDUMETRICS SAS | 4 mois | ![](https://img.shields.io/badge/validé_avec_bonus-F5B301?style=flat-square) | janv. 2026 |
-| Alternance RNCP 7 | [BPCE Infogérance & Technologies](https://www.bpce-it.fr) | 1 an | ![](https://img.shields.io/badge/en_cours-blue?style=flat-square) | — |
+| Alternance RNCP 7 | [BPCE Infogérance & Technologies](https://www.bpce-it.fr/) | 1 an | ![](https://img.shields.io/badge/en_cours-blue?style=flat-square) | — |
 
 ---
 
